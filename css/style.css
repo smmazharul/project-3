@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+
+.ping1{
+    background-image: url("../images/green-nature-tgy6dtxhgtwubez9.jpg");
+    min-height: 100%;  
+}
+.ping2{
+    background-image: url("../images/wearing-white-t-shirt.jpg");
+    min-height: 700px;  
+}
+.ping3{
+    background-image: url("../images/brunet-man-wearing-white-t-shirt.jpg");
+    min-height: 700px;  
+}
+
+.ping1,
+.ping2,
+.ping3{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+   font-size: 3em;
+   text-transform: uppercase;
+   
+   
+}
+.text .textp{
+    background: #242323;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.para {
+    margin-top: 20px;
+    padding: 10px;
+}
+.para h3{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.para p{
+    text-align: justify;
+    background: #242323;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+}
